@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    
+    --background-page: #FFF9E7;
+    --background-nav: #3A53E3;
+    --background-about: #F8CD53;
+    --background-footer: #29282B;
+
+
+    /* Cores de fonte */
+    --color-fonte-default: #000000;
+    --color-fonte-nav: #FFFFFF;
+    --color-fonte-by: orange;
+    --color-fonte-button-hover: yellow;
+
+
+    /* Fontes da pagina */
+    --lato-roboto: 'lato', Roboto;
+    --lato-cursive: 'lato', cursive;
+
+    /* Coree de Efeito */
+    --color-shadow: #C0C0C0;
+    --color-shadow-hover: #191970;
+    --color-button-hover: #191970;
+    --color-placeholder-effect: #191970;
+
+}
+
+/*Estilos da página index.html*/
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover{
+color: grey;
+}
+
+
+/*Estilos da página contato.html*/
+
